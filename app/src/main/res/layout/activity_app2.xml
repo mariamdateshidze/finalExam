@@ -1,0 +1,337 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F4ECED"
+    tools:context=".appActivity">
+
+    <androidx.appcompat.widget.LinearLayoutCompat
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        <androidx.appcompat.widget.AppCompatTextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#F44336"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            android:paddingTop="20dp"
+            android:paddingStart="20dp"
+            android:paddingBottom="20dp"
+
+            android:text="სახელმწიფო უნივერსიტეტები"/>
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:layout_width="200dp"
+            android:layout_height="250dp"
+            android:layout_marginStart="200dp"
+            android:paddingStart="5dp"
+            android:paddingTop="20dp"
+            android:textStyle="bold"
+            android:textColor="#000000"
+
+
+            android:text="სსიპ ივანე ჯანახიშვილის სახელობის
+            თბილისის სახელმწიფო უნივერსიტეტი.
+
+
+            _____________________________
+
+
+
+            მოკლე მიმოხილვა:
+
+
+            მისამართი: თბილისი, ი.ჭავჭავაძის გამზ.N 1
+            ვებსაიტი: www.tsu.ge
+            გადასახადი: სტანდარტულად 2250ლარი"/>
+
+        <androidx.appcompat.widget.AppCompatImageView
+            android:layout_width="200dp"
+            android:layout_height="250dp"
+            android:src="@mipmap/tsu"
+            android:layout_marginTop="-250dp"/>
+        <androidx.appcompat.widget.AppCompatTextView
+            android:layout_width="200dp"
+            android:layout_height="250dp"
+            android:paddingTop="20dp"
+            android:layout_marginStart="200dp"
+            android:paddingStart="5dp"
+            android:textStyle="bold"
+            android:textColor="#000000"
+            android:text="სსიპ საქართველოს ტექნიკური  უნივერსიტეტი.
+
+
+            _____________________________
+
+
+
+            მოკლე მიმოხილვა:
+
+
+            მისამართი: თბილისი, კოსტავას ქ.#77
+            ვებსაიტი: www.gtu.ge
+            გადასახადი: სტანდარტულად 2250ლარი"/>
+        <androidx.appcompat.widget.AppCompatImageView
+            android:layout_width="200dp"
+            android:layout_height="250dp"
+            android:src="@mipmap/gp"
+            android:layout_marginTop="-250dp"/>
+        <androidx.appcompat.widget.AppCompatTextView
+            android:layout_width="200dp"
+            android:layout_height="200dp"
+            android:layout_marginStart="200dp"
+            android:paddingTop="12dp"
+            android:paddingStart="5dp"
+            android:textStyle="bold"
+            android:textColor="#000000"
+            android:text="სსიპ თბილისის სახელმწიფო სამედიცინო  უნივერსიტეტი.
+
+
+            _____________________________
+
+
+
+            მოკლე მიმოხილვა:
+
+
+            მისამართი: თბილისი, ვაჟა-ფშაველას გამზირი 33
+            ვებსაიტი: www.tsmu.ge
+            გადასახადი: სტანდარტულად 2250ლარი"/>
+        <androidx.appcompat.widget.AppCompatImageView
+            android:layout_width="200dp"
+            android:layout_height="250dp"
+            android:src="@mipmap/samed"
+            android:layout_marginTop="-250dp"/>
+        <androidx.appcompat.widget.AppCompatTextView
+            android:layout_width="200dp"
+            android:layout_height="250dp"
+            android:layout_marginStart="200dp"
+            android:paddingTop="20dp"
+            android:paddingStart="5dp"
+            android:textStyle="bold"
+            android:textColor="#000000"
+            android:text="ილიას სახელმწიფო  უნივერსიტეტი.
+
+
+            _____________________________
+
+
+
+            მოკლე მიმოხილვა:
+
+
+            მისამართი: ქაქუცა ჩოლოყაშვლის გამზ.3/5
+            ვებსაიტი: www.iliauni.edu.ge
+            გადასახადი: სტანდარტულად 2250ლარი"/>
+        <androidx.appcompat.widget.AppCompatImageView
+            android:layout_width="200dp"
+            android:layout_height="250dp"
+            android:src="@mipmap/ilia"
+            android:layout_marginTop="-250dp"/>
+        <androidx.appcompat.widget.AppCompatTextView
+            android:layout_width="200dp"
+            android:layout_height="250dp"
+            android:layout_marginStart="200dp"
+            android:paddingStart="5dp"
+            android:textStyle="bold"
+            android:paddingTop="12dp"
+            android:textColor="#000000"
+            android:text="სსიპ აკაკი წერეთლის სახელმწიფო  უნივერსიტეტი.
+
+
+            _____________________________
+
+
+
+            მოკლე მიმოხილვა:
+
+
+            მისამართი: ქუთაისი, , თამარ მეფის 59
+            ვებსაიტი: www.atsu.edu.ge
+            გადასახადი: სტანდარტულად 2250ლარი"/>
+        <androidx.appcompat.widget.AppCompatImageView
+            android:layout_width="200dp"
+            android:layout_height="250dp"
+            android:src="@mipmap/awsu"
+            android:layout_marginTop="-250dp"/>
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:layout_width="200dp"
+            android:layout_height="250dp"
+            android:layout_marginStart="200dp"
+            android:paddingStart="5dp"
+            android:textStyle="bold"
+            android:paddingTop="12dp"
+            android:textColor="#000000"
+            android:text="სსიპ ქუთაისის საერთაშორისო  უნივერსიტეტი.
+
+
+            _____________________________
+
+
+
+            მოკლე მიმოხილვა:
+
+
+            მისამართი: ქუთაისი, , ახალგაზრდობის გამზირი 5/7
+            ვებსაიტი: kiu.edu.ge
+            გადასახადი: სტანდარტულად 2250ლარი"/>
+        <androidx.appcompat.widget.AppCompatImageView
+            android:layout_width="200dp"
+            android:layout_height="250dp"
+            android:src="@mipmap/kiuu"
+            android:layout_marginTop="-250dp"/>
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:layout_width="200dp"
+            android:layout_height="250dp"
+            android:layout_marginStart="200dp"
+            android:paddingStart="5dp"
+            android:textStyle="bold"
+            android:paddingTop="12dp"
+            android:textColor="#000000"
+            android:text="წმ.ანდრია პირველწოდებულის სახელობის ქართული  უნივერსიტეტი.
+
+
+            _____________________________
+
+
+
+            მოკლე მიმოხილვა:
+
+
+            მისამართი: თბილისი, ჭავჭავაძის გამზირი #53ა
+            ვებსაიტი: www.sangu.edu.ge
+            გადასახადი: სტანდარტულად 2250ლარი"/>
+        <androidx.appcompat.widget.AppCompatImageView
+            android:layout_width="200dp"
+            android:layout_height="250dp"
+            android:src="@mipmap/sangu"
+            android:layout_marginTop="-250dp"/>
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:layout_width="200dp"
+            android:layout_height="250dp"
+            android:layout_marginStart="200dp"
+            android:paddingStart="5dp"
+            android:textStyle="bold"
+            android:paddingTop="12dp"
+            android:textColor="#000000"
+            android:text="სსიპ საქართველოს შოთა რუსთაველის თეატრისა და კინოს სახელმწიფო  უნივერსიტეტი.
+
+
+            _____________________________
+
+
+
+            მოკლე მიმოხილვა:
+
+
+            მისამართი: თბილისი,რუსთაველის გამზირი 19
+            ვებსაიტი: www.tafu.edu.ge
+            გადასახადი: სტანდარტულად 2250ლარი"/>
+        <androidx.appcompat.widget.AppCompatImageView
+            android:layout_width="200dp"
+            android:layout_height="250dp"
+            android:src="@mipmap/art"
+            android:layout_marginTop="-250dp"/>
+        <androidx.appcompat.widget.AppCompatTextView
+            android:layout_width="200dp"
+            android:layout_height="250dp"
+            android:layout_marginStart="200dp"
+            android:paddingStart="5dp"
+            android:textStyle="bold"
+            android:paddingTop="12dp"
+            android:textColor="#000000"
+            android:text="სსიპ თბილისის ვანო სარაჯიშვილის სახელობის სახემლმწიფო კონსერვატორია.
+
+
+            _____________________________
+
+
+
+            მოკლე მიმოხილვა:
+
+
+            მისამართი: თბილისი, გრიბოედოვის ქ.8-10
+            ვებსაიტი: www.tsc.edu.ge
+            გადასახადი: სტანდარტულად 2250ლარი"/>
+        <androidx.appcompat.widget.AppCompatImageView
+            android:layout_width="200dp"
+            android:layout_height="250dp"
+            android:src="@mipmap/kons"
+            android:layout_marginTop="-250dp"/>
+        <androidx.appcompat.widget.AppCompatTextView
+            android:layout_width="200dp"
+            android:layout_height="250dp"
+            android:layout_marginStart="200dp"
+            android:paddingStart="5dp"
+            android:textStyle="bold"
+            android:paddingTop="12dp"
+            android:textColor="#000000"
+            android:text="სსიპ თბილისის აპოლონ ქუთათელაძის სახელობის სახელწიფო სამხატვრო აკადემია
+
+
+            _____________________________
+
+
+
+            მოკლე მიმოხილვა:
+
+
+            მისამართი: თბილისი, გრობოედოვის #22
+            ვებსაიტი: www.art.edu.ge
+            გადასახადი: სტანდარტულად 2250ლარი"/>
+        <androidx.appcompat.widget.AppCompatImageView
+            android:layout_width="200dp"
+            android:layout_height="250dp"
+            android:src="@mipmap/akademia"
+            android:layout_marginTop="-250dp"/>
+        <androidx.appcompat.widget.AppCompatTextView
+            android:layout_width="200dp"
+            android:layout_height="250dp"
+            android:layout_marginStart="200dp"
+            android:paddingStart="5dp"
+            android:textStyle="bold"
+            android:paddingTop="12dp"
+            android:textColor="#000000"
+            android:text="ბათუმის შოთა რუსთაველის სახემწიფო უნივერსიტეტი
+
+
+            _____________________________
+
+
+
+            მოკლე მიმოხილვა:
+
+
+            მისამართი: ბათუმი, ნნოშვილის ქუჩა #35
+            ვებსაიტი: www.bsu.edu.ge
+            გადასახადი: სტანდარტულად 2250ლარი"/>
+        <androidx.appcompat.widget.AppCompatImageView
+            android:layout_width="200dp"
+            android:layout_height="250dp"
+            android:src="@mipmap/bsu"
+            android:layout_marginTop="-250dp"/>
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/kitxvebi"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:background="@drawable/button"
+            android:text="ხშირად დასმული კითხვები"
+            android:textStyle="bold"
+            android:layout_marginTop="20dp"
+            android:layout_marginBottom="40dp"
+            android:textSize="20dp"/>
+
+
+
+
+
+    </androidx.appcompat.widget.LinearLayoutCompat>
+
+</ScrollView>

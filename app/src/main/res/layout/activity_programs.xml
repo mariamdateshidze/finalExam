@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F6F2F3"
+    tools:context=".programsActivity">
+
+    <androidx.appcompat.widget.LinearLayoutCompat
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        <androidx.appcompat.widget.AppCompatTextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="გაცვლითი პროგრამები"
+            android:textSize="27dp"
+            android:textStyle="bold"
+            android:background="@drawable/button"
+            android:layout_marginTop="25dp"
+            android:paddingStart="20dp"
+            android:textColor="#FFFFFF"
+           />
+        <androidx.appcompat.widget.AppCompatTextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Erasmus +"
+            android:textStyle="bold"
+            android:textSize="40dp"
+            android:textColor="#051568"
+            android:layout_marginTop="20dp"
+            android:layout_marginStart="100dp"/>
+        <androidx.appcompat.widget.AppCompatTextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#000000"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="10dp"
+            android:text="გაცვლითი პროგრამები Erasmus + სრულად დაფინანსებული გაცვლითი
+             პროგრამები ევროკავშირის 75 უმაღლეს სასწავლებელში."/>
+
+        <androidx.appcompat.widget.AppCompatImageView
+            android:layout_width="wrap_content"
+            android:layout_height="250dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
+            android:src="@mipmap/era"/>
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Erasmus+ ისევე, როგორც მისი წინამორბედი პროგრამა Erasmus Mundus,
+             დაფინანსებული მობილობების შემთხვევაში, ფარავს მგზავრობის ხარჯებს და გასცემს სტიპენდიებს."
+            android:textStyle="bold"
+            android:textSize="20dp"
+            android:textColor="#000000"
+            android:layout_marginStart="10dp"/>
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="UGRAD"
+            android:textStyle="bold"
+            android:textSize="40dp"
+            android:textColor="#051568"
+            android:layout_marginTop="50dp"
+            android:layout_marginStart="120dp"/>
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#000000"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="10dp"
+            android:text="ამერიკის შეერთებული შტატების საელჩო საქართველოში აცხადებს კონკურსს ბაკალავრებისათვის
+             აშშ-ში ერთწლიანი სასწავლო სტიპენდიის მოსაპოვებლად.
+      კონკურსში მონაწილეობა შეუძლია საქართველოს მოქალაქეს, რომელიც:
+         არის სულ მცირე 18 წლის"/>
+
+        <androidx.appcompat.widget.AppCompatImageView
+            android:layout_width="wrap_content"
+            android:layout_height="250dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
+            android:src="@mipmap/ugrad"/>
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="DAAD"
+            android:textStyle="bold"
+            android:textSize="40dp"
+            android:textColor="#051568"
+            android:layout_marginTop="50dp"
+            android:layout_marginStart="130dp"/>
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#000000"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="10dp"
+            android:text="გერმანიის აკადემიის გაცვლის სამსახური საქართველოში 1988
+            წლიდანაა წარმოდგენილი. ის გვთავაზობს მოკლევადიან კურსებს გერმანიის უნივერსიტეტებში"/>
+
+        <androidx.appcompat.widget.AppCompatImageView
+            android:layout_width="wrap_content"
+            android:layout_height="250dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="40dp"
+            android:src="@mipmap/daad"/>
+
+
+    </androidx.appcompat.widget.LinearLayoutCompat>
+
+</ScrollView>

@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".samagistroActivity">
+
+    <androidx.appcompat.widget.LinearLayoutCompat
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            android:background="@drawable/button"
+            android:layout_marginTop="25dp"
+            android:paddingStart="60dp"
+            android:textColor="#FFFFFF"
+            android:text="სამაგისტრო პროგრამები საზღვარგარეთ"/>
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="იაპონია"
+            android:textStyle="bold"
+            android:textSize="40dp"
+            android:textColor="#051568"
+            android:layout_marginTop="20dp"
+            android:layout_marginStart="100dp"/>
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#000000"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="10dp"
+            android:text="იაპონიის პოლიტიკურ მეცნიერებათა კვლევის ეროვნული ინსტიტუტი (National Graduate Institute for Policy Studies - GRIPS)
+            აცხადებს ყოველწლიურ მიღებას სამაგისტრო და სადოქტორო პროგრამაზე."/>
+
+        <androidx.appcompat.widget.AppCompatImageView
+            android:layout_width="wrap_content"
+            android:layout_height="250dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
+            android:src="@mipmap/grips"/>
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="ესტონეთი"
+            android:textStyle="bold"
+            android:textSize="40dp"
+            android:textColor="#051568"
+            android:layout_marginTop="50dp"
+            android:layout_marginStart="80dp"/>
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#000000"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="10dp"
+            android:text="ტალინის უნივერსიტეტი, ესტონეთის საგარეო საქმეთა სამინისტროს დაფინანსებით, საქართველოს, უკრაინის, მოლდოვის,
+            ბელარუსისა და ავღანეთის მოქალაქეებისათვის
+            აცხადებს მიღებას განათლების ინოვაციისა და ლიდერობის  ორწლიან სამაგისტრო სასტიპენდიო პროგრამაზე."/>
+
+        <androidx.appcompat.widget.AppCompatImageView
+            android:layout_width="wrap_content"
+            android:layout_height="250dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
+            android:src="@mipmap/talin"/>
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="საფრანგეთი"
+            android:textStyle="bold"
+            android:textSize="40dp"
+            android:textColor="#051568"
+            android:layout_marginTop="50dp"
+            android:layout_marginStart="60dp"/>
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#000000"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="10dp"
+            android:text="საფრანგეთის უნივერსიტეტი პარიზი-საკლეი (Université Paris-Saclay) ყოველწლიურად
+            აცხადებს საერთაშორისო სასტიპენდიო პროგრამას
+             მაგისტრატურის საფეხურზე. აღნიშნული სასტიპენდიო პროგრამა მოიცავს 45 მიმართულებას"/>
+
+        <androidx.appcompat.widget.AppCompatImageView
+            android:layout_width="wrap_content"
+            android:layout_height="250dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="40dp"
+            android:src="@mipmap/safr"/>
+
+
+
+
+    </androidx.appcompat.widget.LinearLayoutCompat>
+
+
+
+</ScrollView>

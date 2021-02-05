@@ -1,0 +1,335 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F4ECED"
+    tools:context=".appActivity">
+
+    <androidx.appcompat.widget.LinearLayoutCompat
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        <androidx.appcompat.widget.AppCompatTextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#F44336"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            android:paddingTop="20dp"
+            android:paddingStart="70dp"
+            android:paddingBottom="20dp"
+            android:text="კერძო უნივერსიტეტები"/>
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:layout_width="200dp"
+            android:layout_height="250dp"
+            android:layout_marginStart="200dp"
+            android:paddingStart="5dp"
+            android:paddingTop="20dp"
+            android:textStyle="bold"
+            android:textColor="#000000"
+
+
+            android:text="შპს თბილისის თავისუფალი უნივერსიტეტი
+
+
+            _____________________________
+
+
+
+            მოკლე მიმოხილვა:
+
+
+            მისამართი: თბილისი, დავით აღმაშენებლის ხეივანი #240
+
+            ვებსაიტი: www.freeuni.edu.ge
+            გადასახადი: იხილეთ ვებსაიტზე"/>
+
+        <androidx.appcompat.widget.AppCompatImageView
+            android:layout_width="200dp"
+            android:layout_height="250dp"
+            android:src="@mipmap/freeuni"
+            android:layout_marginTop="-250dp"/>
+        <androidx.appcompat.widget.AppCompatTextView
+            android:layout_width="200dp"
+            android:layout_height="250dp"
+            android:paddingTop="20dp"
+            android:layout_marginStart="200dp"
+            android:paddingStart="5dp"
+            android:textStyle="bold"
+            android:textColor="#000000"
+            android:text="შპს საქართველოს უნივერსიტეტი
+
+
+            _____________________________
+
+
+
+            მოკლე მიმოხილვა:
+
+
+            მისამართი: თბილისი, კოსტავას ქ.#77ა
+            ვებსაიტი: www.ug.edu.ge
+            გადასახადი: იხილეთ ვებსაიტზე"/>
+        <androidx.appcompat.widget.AppCompatImageView
+            android:layout_width="200dp"
+            android:layout_height="250dp"
+            android:src="@mipmap/ug"
+            android:layout_marginTop="-250dp"/>
+        <androidx.appcompat.widget.AppCompatTextView
+            android:layout_width="200dp"
+            android:layout_height="200dp"
+            android:layout_marginStart="200dp"
+            android:paddingTop="12dp"
+            android:paddingStart="5dp"
+            android:textStyle="bold"
+            android:textColor="#000000"
+            android:text="შავი ზღვის საერთაშორისო უნივერსიტეტი.
+
+
+            _____________________________
+
+
+
+            მოკლე მიმოხილვა:
+
+
+            მისამართი: თბილისი, აღმაშენებლის ხეივანი
+            ვებსაიტი: www.ibsu.edu.ge
+            გადასახადი: იხილეთ ვებსაიტზე"/>
+        <androidx.appcompat.widget.AppCompatImageView
+            android:layout_width="200dp"
+            android:layout_height="250dp"
+            android:src="@mipmap/ibsu"
+            android:layout_marginTop="-250dp"/>
+        <androidx.appcompat.widget.AppCompatTextView
+            android:layout_width="200dp"
+            android:layout_height="250dp"
+            android:layout_marginStart="200dp"
+            android:paddingTop="20dp"
+            android:paddingStart="5dp"
+            android:textStyle="bold"
+            android:textColor="#000000"
+            android:text="კავკასიის უნივერსიტეტი.
+
+
+            _____________________________
+
+
+
+            მოკლე მიმოხილვა:
+
+
+            მისამართი: პ.სააკაძის #1
+            ვებსაიტი: www.cu.edu.ge
+            გადასახადი: იხილეთ ვებსაიტზე"/>
+        <androidx.appcompat.widget.AppCompatImageView
+            android:layout_width="200dp"
+            android:layout_height="250dp"
+            android:src="@mipmap/cu"
+            android:layout_marginTop="-250dp"/>
+        <androidx.appcompat.widget.AppCompatTextView
+            android:layout_width="200dp"
+            android:layout_height="250dp"
+            android:layout_marginStart="200dp"
+            android:paddingStart="5dp"
+            android:textStyle="bold"
+            android:paddingTop="12dp"
+            android:textColor="#000000"
+            android:text="ქართულ-ამერიკული უნივერსიტეტი
+
+
+            _____________________________
+
+
+
+            მოკლე მიმოხილვა:
+
+
+            მისამართი: თბილისი, მ.ალექსიძის 10
+            ვებსაიტი: www.gau.edu.ge
+            გადასახადი: იხილეთ ვებსაიტზე"/>
+        <androidx.appcompat.widget.AppCompatImageView
+            android:layout_width="200dp"
+            android:layout_height="250dp"
+            android:src="@mipmap/gau"
+            android:layout_marginTop="-250dp"/>
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:layout_width="200dp"
+            android:layout_height="250dp"
+            android:layout_marginStart="200dp"
+            android:paddingStart="5dp"
+            android:textStyle="bold"
+            android:paddingTop="12dp"
+            android:textColor="#000000"
+            android:text="საქართველოს აგრარული უნივერსიტეტი
+
+
+            _____________________________
+
+
+
+            მოკლე მიმოხილვა:
+
+
+            მისამართი: ქუთაისი, , აღმაშენებლის ხეივანი
+            ვებსაიტი: www.agruni.edu.ge
+            გადასახადი: იხილეთ ვებსაიტზე"/>
+        <androidx.appcompat.widget.AppCompatImageView
+            android:layout_width="200dp"
+            android:layout_height="250dp"
+            android:src="@mipmap/agruni"
+            android:layout_marginTop="-250dp"/>
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:layout_width="200dp"
+            android:layout_height="250dp"
+            android:layout_marginStart="200dp"
+            android:paddingStart="5dp"
+            android:textStyle="bold"
+            android:paddingTop="12dp"
+            android:textColor="#000000"
+            android:text="შპს დავით ტვილდიანის სამედიცინო უნივერსიტეტი.
+
+
+            _____________________________
+
+
+
+            მოკლე მიმოხილვა:
+
+
+            მისამართი: თბილისი, ლუბლიანას ქუჩა 2/6
+            ვებსაიტი: www.dtmu.edu.ge
+            გადასახადი: იხილეთ ვებსაიტზე"/>
+        <androidx.appcompat.widget.AppCompatImageView
+            android:layout_width="200dp"
+            android:layout_height="250dp"
+            android:src="@mipmap/tvild"
+            android:layout_marginTop="-250dp"/>
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:layout_width="200dp"
+            android:layout_height="250dp"
+            android:layout_marginStart="200dp"
+            android:paddingStart="5dp"
+            android:textStyle="bold"
+            android:paddingTop="12dp"
+            android:textColor="#000000"
+            android:text= "შპს ბიზნესისა და ტექნოლოგიების უნივერსიტეტი.
+
+
+            _____________________________
+
+
+
+            მოკლე მიმოხილვა:
+
+
+            მისამართი: თბილისი, ი.ჭავჭავაძის გამზირი 82
+            ვებსაიტი: www.btu.edu.ge
+            გადასახადი: იხილეთ ვებსაიტზე"/>
+        <androidx.appcompat.widget.AppCompatImageView
+            android:layout_width="200dp"
+            android:layout_height="250dp"
+            android:src="@mipmap/btu"
+            android:layout_marginTop="-250dp"/>
+        <androidx.appcompat.widget.AppCompatTextView
+            android:layout_width="200dp"
+            android:layout_height="250dp"
+            android:layout_marginStart="200dp"
+            android:paddingStart="5dp"
+            android:textStyle="bold"
+            android:paddingTop="12dp"
+            android:textColor="#000000"
+            android:text="შპს საქართველოს საავიაციო უნივერსიტეტი
+
+            _____________________________
+
+
+
+            მოკლე მიმოხილვა:
+
+
+            მისამართი: თბილისი, ქეთევან დედოფლის გამზ.16
+            ვებსაიტი: www.ssu.edu.ge
+            გადასახადი: იხილეთ ვებსაიტზე"/>
+        <androidx.appcompat.widget.AppCompatImageView
+            android:layout_width="200dp"
+            android:layout_height="250dp"
+            android:src="@mipmap/ssu"
+            android:layout_marginTop="-250dp"/>
+        <androidx.appcompat.widget.AppCompatTextView
+            android:layout_width="200dp"
+            android:layout_height="250dp"
+            android:layout_marginStart="200dp"
+            android:paddingStart="5dp"
+            android:textStyle="bold"
+            android:paddingTop="12dp"
+            android:textColor="#000000"
+            android:text="საქართველოს საზოგადოებრივ საქმეთა ინსტიტუტი(GIPA)
+
+
+            _____________________________
+
+
+
+            მოკლე მიმოხილვა:
+
+
+            მისამართი: თბილისი, მარი ბროსეს ქ.#2
+            ვებსაიტი: www.gipa.ge
+            გადასახადი: იხილეთ ვებსაიტზე"/>
+        <androidx.appcompat.widget.AppCompatImageView
+            android:layout_width="200dp"
+            android:layout_height="250dp"
+            android:src="@mipmap/gipa"
+            android:layout_marginTop="-250dp"/>
+        <androidx.appcompat.widget.AppCompatTextView
+            android:layout_width="200dp"
+            android:layout_height="250dp"
+            android:layout_marginStart="200dp"
+            android:paddingStart="5dp"
+            android:textStyle="bold"
+            android:paddingTop="12dp"
+            android:textColor="#000000"
+            android:text="შპს საქართველოს ეროვნული უნივერსიტეტი
+
+
+            _____________________________
+
+
+
+            მოკლე მიმოხილვა:
+
+
+            მისამართი: თბილისი, წინანდლის ქ. #9
+            ვებსაიტი: www.seu.edu.ge
+            გადასახადი: იხილეთ ვებსაიტზე"/>
+        <androidx.appcompat.widget.AppCompatImageView
+            android:layout_width="200dp"
+            android:layout_height="250dp"
+            android:src="@mipmap/seu"
+            android:layout_marginTop="-250dp"/>
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/kitxvebi2"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:background="@drawable/button"
+            android:text="ხშირად დასმული კითხვები"
+            android:textStyle="bold"
+            android:layout_marginTop="20dp"
+            android:layout_marginBottom="40dp"
+            android:textSize="20dp"/>
+
+
+
+
+
+    </androidx.appcompat.widget.LinearLayoutCompat>
+
+</ScrollView>

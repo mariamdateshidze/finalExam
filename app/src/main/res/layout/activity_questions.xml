@@ -1,0 +1,244 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".questionsActivity">
+    <androidx.appcompat.widget.LinearLayoutCompat
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#F4EBED"
+        android:orientation="vertical">
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:text="ხშირად დასმული კითხვები"
+            android:paddingStart="30dp"
+            android:background="@drawable/button"
+            android:textSize="23dp"
+            android:paddingTop="10dp"
+            android:textStyle="bold"
+            android:layout_marginTop="30dp"
+            android:textColor="#FFFFFF"
+            android:layout_marginStart="5dp"/>
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="1. რა არის სკალირებული ქულები?"
+            android:textColor="#EF5350"
+            android:textStyle="bold"
+            android:textSize="25dp"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="30dp"/>
+        <androidx.appcompat.widget.AppCompatTextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="შესაძლოა, კონკრეტული  საგნის  ტესტის  სხვადასხვა
+             ვარიანტი  სირთულის თვალსაზრისით  უმნიშვნელოდ  განსხვავდებოდეს  ერთმანეთისაგან,
+              ამიტომ  აბიტურიენტებისათვის  თანაბარი საკონკურსო პირობების შესაქმნელად გამოიყენება სკალირება. სკალირება ტესტის სხვადასხვა ვარიანტში
+               მიღებული ქულების ერთმანეთთან შედარების საშუალებას გვაძლევს.
+
+ "
+            android:textColor="#000000"
+            android:textStyle="bold"
+            android:textSize="20dp"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="30dp"/>
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="2. როგორ გამოითვლება საკონკურსო ქულა?"
+            android:textColor="#EF5350"
+            android:textStyle="bold"
+            android:textSize="25dp"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="30dp"/>
+        <androidx.appcompat.widget.AppCompatTextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="საკონკურსო ქულის (რომლის მიხედვითაც ხდება ჩარიცხვა) გამოანგარიშება ხდება შემდეგნაირად:
+            თითოეული გამოცდის სკალირებული ქულა გამრავლდება საგანმანათლებლო პროგრამის  მიერ
+             მინიჭებულ  კოეფიციენტებზე  და  შედეგები შეჯამდება.
+
+ "
+            android:textColor="#000000"
+            android:textStyle="bold"
+            android:textSize="20dp"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="30dp"/>
+        <androidx.appcompat.widget.AppCompatTextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="3. როგორია გრანტის მოპოვების პრინციპი?"
+            android:textColor="#EF5350"
+            android:textStyle="bold"
+            android:textSize="25dp"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="30dp"/>
+        <androidx.appcompat.widget.AppCompatTextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="სახელმწიფო სასწავლო გრანტის გაცემის წესი შემდეგში მდგომარეობს: საგრანტო კონკურსში მონაწილეობისათვის საგამოცდო
+            საგანს აქვს თავისი წონა – ზოგადი უნარების გამოცდას – 1.5,
+             ხოლო ყველა სხვა საგამოცდო საგანს – 1.
+თითოეულ გამოცდაში მოპოვებული სკალირებული ქულა მრავლდება შესაბამის წონაზე და მიღებული ქულები ჯამდება.
+
+ "
+            android:textColor="#000000"
+            android:textStyle="bold"
+            android:textSize="20dp"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="30dp"/>
+        <androidx.appcompat.widget.AppCompatTextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="4. 4 ან მეტი საგნის ჩაბარების შემთხვევაში
+             რომელ საგანს ენიჭება პრიორიტეტი?"
+            android:textColor="#EF5350"
+            android:textStyle="bold"
+            android:textSize="25dp"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="30dp"/>
+        <androidx.appcompat.widget.AppCompatTextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="საგრანტო კონკურსზე გადიხარ
+            იმ საგნის ქულით რომელსაც უფრო მეტი წონა აქვს
+ "
+            android:textColor="#000000"
+            android:textStyle="bold"
+            android:textSize="20dp"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="30dp"/>
+        <androidx.appcompat.widget.AppCompatTextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="5. გამოცდების დასრულებიდან რამდენ ხანში ხდება ცნობილი ქულები?"
+            android:textColor="#EF5350"
+            android:textStyle="bold"
+            android:textSize="25dp"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="30dp"/>
+        <androidx.appcompat.widget.AppCompatTextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="გამოცდების დასრულებიდან დაახლოებით 1 თვეში
+ "
+            android:textColor="#000000"
+            android:textStyle="bold"
+            android:textSize="20dp"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="30dp"/>
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="6. ქულების დადებიდან რამდენ ხანში ხდება ცნობილი
+             უნივერსიტეტში ჩარიცხვების შედეგები?"
+            android:textColor="#EF5350"
+            android:textStyle="bold"
+            android:textSize="25dp"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="30dp"/>
+        <androidx.appcompat.widget.AppCompatTextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="ქულების დადებიდან დაახლოებით 1 თვეში,
+            უმეტეს შემთხვევაში აგვისტოს ბოლო დღეებში
+ "
+            android:textColor="#000000"
+            android:textStyle="bold"
+            android:textSize="20dp"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="30dp"/>
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="7.მინიმუმ რამდენი ქულის აღებაა საჭირო გრანტის მოსაპოვებლად?"
+            android:textColor="#EF5350"
+            android:textStyle="bold"
+            android:textSize="25dp"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="30dp"/>
+        <androidx.appcompat.widget.AppCompatTextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="ეს დამოკიდებულია იმაზე, თუ როგორ შედეგებს აჩვენებენ თქვენი კონკურენტები.
+             50-60%-იანი ზღვარის გადალახვის შემთხვევაში უკვე შეგვიძლია მინიმალურ დაფინანსებაზე ვიმსჯელოთ.
+ "
+            android:textColor="#000000"
+            android:textStyle="bold"
+            android:textSize="20dp"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="30dp"/>
+        <androidx.appcompat.widget.AppCompatTextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="8.რა არის აპელაცია? "
+            android:textColor="#EF5350"
+            android:textStyle="bold"
+            android:textSize="25dp"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="30dp"/>
+        <androidx.appcompat.widget.AppCompatTextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="პირველადი შედეგების გამოქვეყნების შემდეგ გამოსაცდელებს საშუალება აქვთ გაასაჩივრონ
+            მიღებული ქულა. საპრეტენზიო განაცხადის ცენტრში წარდგენას, მის განხილვასა და
+             ახალი შედეგების გამოქვეყნებას სააპელაციო პროცესი ჰქვია. "
+            android:textColor="#000000"
+            android:textStyle="bold"
+            android:textSize="20dp"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="30dp"/>
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="9.გრანტის მოპოვების შემთხვევაში ოთხივე წელი ფინანსდება? "
+            android:textColor="#EF5350"
+            android:textStyle="bold"
+            android:textSize="25dp"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="30dp"/>
+        <androidx.appcompat.widget.AppCompatTextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="დიახ, იმ შემთხვევაში, თუ აბიტურიენტი გრანტს მოიპოვებს,
+            დაფინანსება შეეხება სრულ სასწავლო კურსს. "
+            android:textColor="#000000"
+            android:textStyle="bold"
+            android:textSize="20dp"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="30dp"/>
+        <androidx.appcompat.widget.AppCompatTextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="10.როდის ქვეყნდება 'ცნობარი აბიტურიენტთათვის'? "
+            android:textColor="#EF5350"
+            android:textStyle="bold"
+            android:textSize="25dp"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="30dp"/>
+        <androidx.appcompat.widget.AppCompatTextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="'ცნობარი აბიტურიენტებისათვის' ყოველ წელს, რეგისტრაციის დაწყებისთანავე
+            ქვეყნდება შეფასებისა და გამოცდების ეროვნული ცენტრის ვებგვერდზე www.naec.ge
+ "
+            android:textColor="#000000"
+            android:textStyle="bold"
+            android:textSize="20dp"
+            android:layout_marginStart="10dp"
+            android:paddingBottom="40dp"
+            android:layout_marginTop="30dp"/>
+
+
+    </androidx.appcompat.widget.LinearLayoutCompat>
+
+</ScrollView>
